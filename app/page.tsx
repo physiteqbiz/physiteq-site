@@ -5,22 +5,12 @@ export default function Home() {
       {/* ヘッダー */}
       <header className="sticky top-0 z-20 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-col gap-2 px-6 py-3 md:flex-row md:items-center md:justify-between">
-          <div className="text-lg font-semibold tracking-tight">
-            Physiteq
-          </div>
+          <div className="text-lg font-semibold tracking-tight">Physiteq</div>
           <nav className="flex flex-wrap gap-4 text-xs text-slate-300 md:text-sm">
-            <a href="#services" className="hover:text-white">
-              サービス
-            </a>
-            <a href="#strength" className="hover:text-white">
-              特長
-            </a>
-            <a href="#flow" className="hover:text-white">
-              進め方
-            </a>
-            <a href="#contact" className="hover:text-emerald-300">
-              お問い合わせ（準備中）
-            </a>
+            <a href="#services" className="hover:text-white">サービス</a>
+            <a href="#strength" className="hover:text-white">特長</a>
+            <a href="#flow" className="hover:text-white">進め方</a>
+            <a href="#contact" className="hover:text-emerald-300">お問い合わせ準備中</a>
           </nav>
         </div>
       </header>
@@ -28,32 +18,35 @@ export default function Home() {
       {/* ヒーロー */}
       <section className="border-b border-slate-900 bg-gradient-to-b from-slate-950 to-slate-900">
         <div className="mx-auto flex max-w-5xl flex-col gap-10 px-6 py-14 md:flex-row md:items-center md:py-20">
-          {/* 左カラム：コピー */}
+          {/* 左カラム */}
           <div className="flex-1">
             <p className="mb-3 text-[10px] font-semibold uppercase tracking-[0.25em] text-emerald-400">
               Fitness × Technology
             </p>
+
             <h1 className="mb-5 text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-              パーソナルジムのための、
+              Google広告が“初めて”のパーソナルジムでも、
               <br />
-              「ちゃんと測る」集客パートナー。
+              失敗しないための伴走パートナー。
             </h1>
+
             <p className="mb-4 text-sm leading-relaxed text-slate-300 md:text-base">
-              Physiteq は、パーソナルジムやスモールビジネス向けに
-              Google 広告運用と計測環境（GTM / GA4 / コンバージョン）の
-              設計・改善を行う個人運営のマーケティング支援サービスです。
-            </p>
-            <p className="mb-4 text-sm leading-relaxed text-slate-300 md:text-base">
-              「すでに広告を回している方」はもちろん、
+              Physiteq は、パーソナルジム・小規模店舗向けに  
               <span className="font-semibold text-emerald-300">
-                Google 広告をまだ一度も触ったことがない方
+                Google広告・GTM・GA4・LINE計測の“初期構築〜改善”までを寄り添って整える
               </span>
-              でも、アカウント作成や初期設定の段階から一緒に進められる形を想定しています。
+              個人の集客サポートです。
             </p>
+
+            <p className="mb-4 text-sm leading-relaxed text-slate-300 md:text-base">
+              広告を出したことがなくても大丈夫。  
+              むしろ初心者ほど、最初の設定を正しく整えることで  
+              <span className="font-semibold">ムダな広告費を使わず、短期間で成果が出やすくなります。</span>
+            </p>
+
             <p className="mb-8 text-xs text-slate-400">
-              「とりあえず広告を出す」のではなく、
-              どの経路から、どれだけ反応が取れているのかを
-              一緒に整理していくことを重視しています。
+              「管理画面を見るのがこわい」「そもそも何から始めれば？」  
+              そんな段階から、ゆっくり伴走します。
             </p>
 
             {/* CTA */}
@@ -65,55 +58,44 @@ export default function Home() {
                 無料相談（準備中）
               </a>
               <span className="text-xs text-slate-400">
-                「そもそも何から始めればいいか分からない」という段階から相談OKです。
+                初めての広告出稿でも、基礎から一緒に整えます。
               </span>
             </div>
 
             {/* タグ */}
             <div className="flex flex-wrap gap-2 text-[11px] text-slate-200">
-              <span className="rounded-full border border-emerald-400/40 bg-emerald-400/10 px-3 py-1">
-                Google 広告運用
-              </span>
-              <span className="rounded-full border border-sky-400/40 bg-sky-400/10 px-3 py-1">
-                GTM / GA4 設計
-              </span>
-              <span className="rounded-full border border-fuchsia-400/40 bg-fuchsia-400/10 px-3 py-1">
-                LINE 計測・CV 設計
-              </span>
-              <span className="rounded-full border border-slate-500/60 bg-slate-500/10 px-3 py-1">
-                LP 改善・AB テスト
-              </span>
-              <span className="rounded-full border border-emerald-300/60 bg-emerald-300/10 px-3 py-1">
-                初めての広告出稿サポート
-              </span>
+              <span className="rounded-full border border-emerald-400/40 bg-emerald-400/10 px-3 py-1">Google広告 初期構築</span>
+              <span className="rounded-full border border-sky-400/40 bg-sky-400/10 px-3 py-1">GTM / GA4 設計</span>
+              <span className="rounded-full border border-fuchsia-400/40 bg-fuchsia-400/10 px-3 py-1">LINE 計測</span>
+              <span className="rounded-full border border-slate-500/60 bg-slate-500/10 px-3 py-1">LP 改善</span>
+              <span className="rounded-full border border-emerald-300/60 bg-emerald-300/10 px-3 py-1">初心者歓迎</span>
             </div>
           </div>
 
-          {/* 右カラム：カード（ペルソナ・課題） */}
+          {/* 右カラム（初心者の悩み） */}
           <div className="flex-1 rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-sm text-slate-200">
             <p className="mb-3 text-xs font-semibold text-slate-400">
-              こんなジム・店舗をイメージしています
+              こんなお悩みありませんか？
             </p>
+
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li>・駅チカ / 商店街エリアのパーソナルジム</li>
-              <li>・広告を出しているが、数字の見方に自信がない</li>
-              <li>・これから Google 広告を始めたいが、最初の一歩が不安</li>
-              <li>・「代理店に丸投げ」ではなく、一緒に改善していきたい</li>
+              <li>・Google広告を触ったことがない</li>
+              <li>・LINE追加がどこから来てるか分からない</li>
+              <li>・LPを見られているのか知りたい</li>
+              <li>・代理店に任せてるけど内容が理解できない</li>
+              <li>・少額からでいいから、失敗しない形で始めたい</li>
             </ul>
 
             <p className="mt-5 mb-2 text-xs font-semibold text-slate-400">
-              よくあるお悩み
+              Physiteq ならではの安心ポイント
             </p>
+
             <ul className="space-y-1 text-xs leading-relaxed text-slate-300">
-              <li>・LP はあるが、どこまで読まれているか分からない</li>
-              <li>・LINE 追加や体験申込みが、どの広告から来たか分からない</li>
-              <li>・そもそも Google 広告の管理画面を見るのがこわい・面倒</li>
-              <li>・CV 数ではなく「問い合わせ単価」で判断したい</li>
+              <li>・初心者がつまづきやすい初期設定から丁寧にサポート</li>
+              <li>・広告の数字は“3つだけ”見ればいい方法に整理</li>
+              <li>・店舗へ伺って、導線やLPとのズレも一緒に確認可能</li>
+              <li>・現場理解があるから、無理な提案はしません</li>
             </ul>
-            <p className="mt-4 text-xs text-slate-400">
-              将来的には、自分自身のジム運営での検証結果も交えながら、
-              「現場感のある集客」を一緒に組み立てていく予定です。
-            </p>
           </div>
         </div>
       </section>
@@ -121,53 +103,48 @@ export default function Home() {
       {/* サービス概要 */}
       <section id="services" className="border-b border-slate-900 bg-slate-950">
         <div className="mx-auto max-w-5xl px-6 py-14">
-          <h2 className="mb-2 text-xl font-semibold tracking-tight">
-            提供予定のサービス
-          </h2>
+          <h2 className="mb-2 text-xl font-semibold tracking-tight">提供予定のサービス</h2>
           <p className="mb-8 text-xs text-slate-400">
-            まだ準備中ですが、実際の相談内容に合わせて、下記のようなメニューを想定しています。
-            「すでに広告を回している方」と「これから広告を始める方」のどちらも想定しています。
+            初心者のジムでも無理なく始められるよう、小さく・安全にスタートできるメニューを中心にしています。
           </p>
           <div className="grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
-              <h3 className="mb-2 text-sm font-semibold">Google 広告運用</h3>
+              <h3 className="mb-2 text-sm font-semibold">Google 広告の初期構築</h3>
               <p className="text-xs text-slate-300">
-                検索・ディスプレイ・地域名 × ジムなど、
-                小規模予算でも回しやすい構成を一緒に設計します。
-                アカウントの新規開設や初期設定の段階から伴走することも可能です。
+                アカウント作成・初期設定・少額テストまで“横で一緒に”進めます。
+                むずかしい設定は全部こちらで操作します。
               </p>
             </div>
+
             <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
-              <h3 className="mb-2 text-sm font-semibold">GTM / GA4 設計</h3>
+              <h3 className="mb-2 text-sm font-semibold">GTM / GA4 / LINE 計測</h3>
               <p className="text-xs text-slate-300">
-                LINE 追加・体験申込み・予約完了など、
-                ビジネスとして知りたい数値が取れるようにタグを整理します。
-                「計測のことは全部ごちゃごちゃして見える」という状態から整える前提で考えています。
+                LP・LINE公式と連動した計測を整え、  
+                「どこから問い合わせが来たか？」を明確にします。
               </p>
             </div>
+
             <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
-              <h3 className="mb-2 text-sm font-semibold">LP 改善の伴走</h3>
+              <h3 className="mb-2 text-sm font-semibold">LP改善の伴走</h3>
               <p className="text-xs text-slate-300">
-                タップ率・スクロール率・離脱ポイントを見ながら、
-                少しずつコンテンツと導線を磨いていきます。
-                広告をまだ出していない段階でも、「出したときに困らないLP」を一緒に作っていきます。
+                スクロール率やタップ率を一緒に確認し、  
+                “初心者でもできる改善” に絞って少しずつ磨いていきます。
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 強み */}
+      {/* Physiteq の強み */}
       <section id="strength" className="border-b border-slate-900 bg-slate-950">
         <div className="mx-auto max-w-5xl px-6 py-14">
-          <h2 className="mb-4 text-xl font-semibold tracking-tight">
-            Physiteq の強み（予定）
-          </h2>
+          <h2 className="mb-4 text-xl font-semibold tracking-tight">Physiteq の強み</h2>
           <ul className="space-y-3 text-sm text-slate-300">
-            <li>・自分自身がフィジーク選手＆ジム運営側の立場であること</li>
-            <li>・エンジニア／ITコンサル出身で、GTM / GA4 / 計測まわりをちゃんと組めること</li>
-            <li>・広告だけでなく、LPや導線も含めて数字で会話できること</li>
-            <li>・「用語が分からない」「管理画面がこわい」という状態の方にも合わせて説明できること</li>
+            <li>・自分自身がジム運営者なので、現場の感覚を理解している</li>
+            <li>・初心者の「わからない」に寄り添った伴走スタイル</li>
+            <li>・必要に応じて“現場に伺って”導線・LPとのズレも一緒に確認</li>
+            <li>・ムダな広告費を使わせないため、少額のテストからスタート</li>
+            <li>・数字は“3つだけ”に絞るので、管理画面が苦手でも迷わない</li>
           </ul>
         </div>
       </section>
@@ -176,21 +153,16 @@ export default function Home() {
       <section id="flow" className="border-b border-slate-900 bg-slate-950">
         <div className="mx-auto max-w-5xl px-6 py-14">
           <h2 className="mb-4 text-xl font-semibold tracking-tight">
-            ご相談の進め方（イメージ）
+            ご相談の進め方（初心者向け）
           </h2>
           <ol className="space-y-3 text-sm text-slate-300">
-            <li>0. これまでの集客状況・広告経験の有無をヒアリング</li>
-            <li>1. 現在のLPやサイト、Google ビジネスプロフィールなどを一緒に確認</li>
-            <li>2. 「まずどこから測るべきか」を一緒に整理</li>
-            <li>3. 必要に応じて Google 広告アカウントの作成・初期設定</li>
-            <li>4. GTM / GA4 / コンバージョンの設計・実装</li>
-            <li>5. 簡単なレポートフォーマットを作り、定点で数字を確認</li>
+            <li>0. 現状ヒアリング（広告経験ゼロでもOK）</li>
+            <li>1. Google広告アカウントの作成から一緒に設定</li>
+            <li>2. GTM / GA4 / LINE計測を丁寧に構築</li>
+            <li>3. 少額でテスト配信 → 反応を確認</li>
+            <li>4. 必要に応じて店舗へ訪問し、導線やLPのギャップを確認</li>
+            <li>5. 月単位で“初心者でも理解できる数字だけ”を見ながら改善</li>
           </ol>
-          <p className="mt-4 text-xs text-slate-400">
-            ※ まだ正式なメニューや料金は決めていません。
-            自分のジム運営での検証をしつつ、形を固めていく予定です。
-            「まずは話だけ聞きたい」という段階からでも大丈夫です。
-          </p>
         </div>
       </section>
 
@@ -199,12 +171,14 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6 py-8 text-xs text-slate-500">
           <p className="mb-2 font-semibold text-slate-300">お問い合わせ（準備中）</p>
           <p className="mb-3">
-            まだフォームやLINE公式アカウントは整備中です。
-            立ち上げができ次第、このスペースに窓口を設置する予定です。
-            Google 広告未経験の方からの相談も歓迎しています。
+            オンラインはもちろん、  
+            <span className="text-slate-300">ご希望があれば店舗へ伺って、集客導線を一緒に整理します。</span>
+            Google広告が初めてでも気軽に相談できる伴走型サポートです。
           </p>
           <p className="mb-1">© {new Date().getFullYear()} Physiteq.</p>
-          <p>このサイト自体も、計測と改善の実験台として少しずつアップデートしていきます。</p>
+          <p>
+            このサイト自体も、計測と改善の実験台として少しずつアップデートしていきます。
+          </p>
         </div>
       </footer>
     </main>
