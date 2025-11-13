@@ -10,6 +10,7 @@ export default function Home() {
             <a href="#services" className="hover:text-white">サービス</a>
             <a href="#strength" className="hover:text-white">特長</a>
             <a href="#flow" className="hover:text-white">進め方</a>
+            <a href="/about" className="hover:text-white">担当者紹介</a>
             <a href="#contact" className="hover:text-emerald-300">お問い合わせ準備中</a>
           </nav>
         </div>
