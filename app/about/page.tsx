@@ -125,6 +125,17 @@ export default function About() {
                 </li>
               </ul>
             </div>
+            {/* 保有資格 */}
+<div>
+  <h2 className="mb-2 text-xl font-semibold tracking-tight">
+    保有資格
+  </h2>
+  <ul className="space-y-2 text-sm leading-relaxed text-slate-300">
+    <li>・Google 広告 認定資格（検索広告）</li>
+    <li>・NSCA-CPT</li>
+    <li>・基本情報技術者（国家資格）</li>
+  </ul>
+</div>
 
             {/* 最後のメッセージ */}
             <div>
