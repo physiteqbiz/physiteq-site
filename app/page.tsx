@@ -7,12 +7,14 @@ export default function Home() {
         <div className="mx-auto flex max-w-5xl flex-col gap-2 px-6 py-3 md:flex-row md:items-center md:justify-between">
           <div className="text-lg font-semibold tracking-tight">Physiteq</div>
           <nav className="flex flex-wrap gap-4 text-xs text-slate-300 md:text-sm">
-            <a href="#services" className="hover:text-white">サービス</a>
-            <a href="#strength" className="hover:text-white">特長</a>
-            <a href="#flow" className="hover:text-white">進め方</a>
-            <a href="/about" className="hover:text-white">担当者紹介</a>
-            <a href="#contact" className="hover:text-emerald-300">お問い合わせ準備中</a>
-          </nav>
+  <a href="#services" className="hover:text-white">サービス概要</a>
+  <a href="/services" className="hover:text-white">サービス詳細</a>
+  <a href="/pricing" className="hover:text-white">料金の目安</a>
+  <a href="#strength" className="hover:text-white">特長</a>
+  <a href="#flow" className="hover:text-white">進め方</a>
+  <a href="/about" className="hover:text-white">担当者紹介</a>
+  <a href="#contact" className="hover:text-emerald-300">お問い合わせ準備中</a>
+</nav>
         </div>
       </header>
 
