@@ -131,8 +131,8 @@ export default function About() {
     保有資格
   </h2>
   <ul className="space-y-2 text-sm leading-relaxed text-slate-300">
-    <li>・Google 広告 認定資格（検索広告）</li>
-    <li>・NSCA-CPT</li>
+    <li>・Google広告 検索広告認定資格</li>
+    <li>・NSCA-CPT（認定パーソナルトレーナー）</li>
     <li>・基本情報技術者（国家資格）</li>
   </ul>
 </div>
